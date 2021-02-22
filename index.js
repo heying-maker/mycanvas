@@ -1,4 +1,4 @@
-import ToDraw from './src/todraw'
+import ToDraw from './dist/todraw'
 
 require('react-dom');
 window.React2 = require('react')
