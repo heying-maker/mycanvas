@@ -63,7 +63,6 @@ function initCanvasHooks(mycanvas, ctx) {
     });
 
     mycanvas.on("selection:created", function (e) {
-        console.log("eeee", e);
         selected = true;
         mycanvas.setActiveObject(e.target);
     });

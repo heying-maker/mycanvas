@@ -215,12 +215,9 @@ ToDraw.defaultProps = {
         }
 
     ],
-    bgcolors: [{ value: '', label: '透明背景' }, { value: 'white', label: '白色' }, { value: 'rgb(16,109,156)', label: '浅蓝色' }, { value: 'rgb(90,146,173)', label: '哑光蓝色' }, { value: 'rgb(61,89,171)', label: '钴色' },
-    { value: 'rgb(128,42,42)', label: '朱红' },
-    { value: 'rgb(226,205,188)', label: '浅黄' },
-    { value: 'rgb(177,122,125)', label: '朱粉' },
-    { value: 'rgb(214,214,214)', label: '青色' }],
+    bgcolors: [ { value: 'white', label: '白色' }, { value: 'rgb(16,109,156)', label: '浅蓝色' },  { value: 'rgb(61,89,171)', label: '钴色' },
+   ],
 
-    coloroptions: [{ value: 'red' }, { value: 'green' }, { value: 'yellow' }, { value: 'black' }, { value: 'blue' }, { value: 'pink' }, { value: 'white' }],
-    imgOptions: [{ value: 'jpeg' }, { value: 'png' }, { value: 'jpg' }, { value: 'gif' }, { value: 'bmp' }],
+    coloroptions: [{ value: 'red' }, { value: 'green' }, { value: 'yellow' }, ],
+    imgOptions: [{ value: 'jpeg' }, { value: 'png' }, { value: 'jpg' }],
 }

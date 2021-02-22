@@ -73,7 +73,7 @@ export default function drawing(type, mouseFrom, mouseTo, color, drawWidth, isTe
             canvasObject = null
             break;
     }
-    console.log("canvasObject", canvasObject);
+    // console.log("canvasObject", canvasObject);
     return canvasObject;
 }
 
