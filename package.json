@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "build": "babel src -d dist --copy-files"
+    "build1": "babel src -d dist --copy-files",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "cnavas"
@@ -17,7 +18,7 @@
     "antd": "^4.12.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^5.0.2",
