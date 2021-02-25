@@ -4,6 +4,7 @@ import { DownloadOutlined, UploadOutlined } from '@ant-design/icons'
 import { initcanvas ,doDraw} from './mycanvas'
 import $ from 'jquery';
 import { downloadPic } from './downLoad'
+import './index.less'
 export default class ToDraw extends React.Component {
     constructor(props) {
         super(props)
@@ -112,7 +113,7 @@ export default class ToDraw extends React.Component {
     render() {
         const { tools, bgcolors, coloroptions, imgOptions } = this.props
         return (
-            <div>
+            <div class="todo">
                 <Row>
                     <Col md={3}> <Button type='primary'
                         onClick={(e) => this.clearCanvas(e)}
@@ -220,4 +221,5 @@ ToDraw.defaultProps = {
 
     coloroptions: [{ value: 'red' }, { value: 'green' }, { value: 'yellow' }, ],
     imgOptions: [{ value: 'jpeg' }, { value: 'png' }, { value: 'jpg' }],
+    
 }
